@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F20966D521DA29A600FAB359 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20966D421DA29A600FAB359 /* AppDelegate.swift */; };
+		F20966D721DA29A600FAB359 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20966D621DA29A600FAB359 /* ViewController.swift */; };
+		F20966DA21DA29A600FAB359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20966D821DA29A600FAB359 /* Main.storyboard */; };
+		F20966DD21DA29A600FAB359 /* FoxPlanner_beta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F20966DB21DA29A600FAB359 /* FoxPlanner_beta.xcdatamodeld */; };
+		F20966DF21DA29A700FAB359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20966DE21DA29A700FAB359 /* Assets.xcassets */; };
+		F20966E221DA29A700FAB359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20966E021DA29A700FAB359 /* LaunchScreen.storyboard */; };
+		F20966ED21DA29A700FAB359 /* FoxPlanner_betaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20966EC21DA29A700FAB359 /* FoxPlanner_betaTests.swift */; };
+		F20966F821DA29A700FAB359 /* FoxPlanner_betaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20966F721DA29A700FAB359 /* FoxPlanner_betaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F20966E921DA29A700FAB359 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F20966C921DA29A600FAB359 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F20966D021DA29A600FAB359;
+			remoteInfo = FoxPlanner_beta;
+		};
+		F20966F421DA29A700FAB359 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F20966C921DA29A600FAB359 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F20966D021DA29A600FAB359;
+			remoteInfo = FoxPlanner_beta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F20966D121DA29A600FAB359 /* FoxPlanner_beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoxPlanner_beta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20966D421DA29A600FAB359 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F20966D621DA29A600FAB359 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F20966D921DA29A600FAB359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F20966DC21DA29A600FAB359 /* FoxPlanner_beta.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoxPlanner_beta.xcdatamodel; sourceTree = "<group>"; };
+		F20966DE21DA29A700FAB359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F20966E121DA29A700FAB359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F20966E321DA29A700FAB359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F20966E821DA29A700FAB359 /* FoxPlanner_betaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoxPlanner_betaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20966EC21DA29A700FAB359 /* FoxPlanner_betaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoxPlanner_betaTests.swift; sourceTree = "<group>"; };
+		F20966EE21DA29A700FAB359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F20966F321DA29A700FAB359 /* FoxPlanner_betaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoxPlanner_betaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20966F721DA29A700FAB359 /* FoxPlanner_betaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoxPlanner_betaUITests.swift; sourceTree = "<group>"; };
+		F20966F921DA29A700FAB359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F20966CE21DA29A600FAB359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20966E521DA29A700FAB359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20966F021DA29A700FAB359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F20966C821DA29A600FAB359 = {
+			isa = PBXGroup;
+			children = (
+				F20966D321DA29A600FAB359 /* FoxPlanner_beta */,
+				F20966EB21DA29A700FAB359 /* FoxPlanner_betaTests */,
+				F20966F621DA29A700FAB359 /* FoxPlanner_betaUITests */,
+				F20966D221DA29A600FAB359 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F20966D221DA29A600FAB359 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F20966D121DA29A600FAB359 /* FoxPlanner_beta.app */,
+				F20966E821DA29A700FAB359 /* FoxPlanner_betaTests.xctest */,
+				F20966F321DA29A700FAB359 /* FoxPlanner_betaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F20966D321DA29A600FAB359 /* FoxPlanner_beta */ = {
+			isa = PBXGroup;
+			children = (
+				F20966D421DA29A600FAB359 /* AppDelegate.swift */,
+				F20966D621DA29A600FAB359 /* ViewController.swift */,
+				F20966D821DA29A600FAB359 /* Main.storyboard */,
+				F20966DE21DA29A700FAB359 /* Assets.xcassets */,
+				F20966E021DA29A700FAB359 /* LaunchScreen.storyboard */,
+				F20966E321DA29A700FAB359 /* Info.plist */,
+				F20966DB21DA29A600FAB359 /* FoxPlanner_beta.xcdatamodeld */,
+			);
+			path = FoxPlanner_beta;
+			sourceTree = "<group>";
+		};
+		F20966EB21DA29A700FAB359 /* FoxPlanner_betaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F20966EC21DA29A700FAB359 /* FoxPlanner_betaTests.swift */,
+				F20966EE21DA29A700FAB359 /* Info.plist */,
+			);
+			path = FoxPlanner_betaTests;
+			sourceTree = "<group>";
+		};
+		F20966F621DA29A700FAB359 /* FoxPlanner_betaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F20966F721DA29A700FAB359 /* FoxPlanner_betaUITests.swift */,
+				F20966F921DA29A700FAB359 /* Info.plist */,
+			);
+			path = FoxPlanner_betaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F20966D021DA29A600FAB359 /* FoxPlanner_beta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20966FC21DA29A700FAB359 /* Build configuration list for PBXNativeTarget "FoxPlanner_beta" */;
+			buildPhases = (
+				F20966CD21DA29A600FAB359 /* Sources */,
+				F20966CE21DA29A600FAB359 /* Frameworks */,
+				F20966CF21DA29A600FAB359 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoxPlanner_beta;
+			productName = FoxPlanner_beta;
+			productReference = F20966D121DA29A600FAB359 /* FoxPlanner_beta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F20966E721DA29A700FAB359 /* FoxPlanner_betaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20966FF21DA29A700FAB359 /* Build configuration list for PBXNativeTarget "FoxPlanner_betaTests" */;
+			buildPhases = (
+				F20966E421DA29A700FAB359 /* Sources */,
+				F20966E521DA29A700FAB359 /* Frameworks */,
+				F20966E621DA29A700FAB359 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F20966EA21DA29A700FAB359 /* PBXTargetDependency */,
+			);
+			name = FoxPlanner_betaTests;
+			productName = FoxPlanner_betaTests;
+			productReference = F20966E821DA29A700FAB359 /* FoxPlanner_betaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F20966F221DA29A700FAB359 /* FoxPlanner_betaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F209670221DA29A700FAB359 /* Build configuration list for PBXNativeTarget "FoxPlanner_betaUITests" */;
+			buildPhases = (
+				F20966EF21DA29A700FAB359 /* Sources */,
+				F20966F021DA29A700FAB359 /* Frameworks */,
+				F20966F121DA29A700FAB359 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F20966F521DA29A700FAB359 /* PBXTargetDependency */,
+			);
+			name = FoxPlanner_betaUITests;
+			productName = FoxPlanner_betaUITests;
+			productReference = F20966F321DA29A700FAB359 /* FoxPlanner_betaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F20966C921DA29A600FAB359 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Seunghyun Lee";
+				TargetAttributes = {
+					F20966D021DA29A600FAB359 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F20966E721DA29A700FAB359 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F20966D021DA29A600FAB359;
+					};
+					F20966F221DA29A700FAB359 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F20966D021DA29A600FAB359;
+					};
+				};
+			};
+			buildConfigurationList = F20966CC21DA29A600FAB359 /* Build configuration list for PBXProject "FoxPlanner_beta" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F20966C821DA29A600FAB359;
+			productRefGroup = F20966D221DA29A600FAB359 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F20966D021DA29A600FAB359 /* FoxPlanner_beta */,
+				F20966E721DA29A700FAB359 /* FoxPlanner_betaTests */,
+				F20966F221DA29A700FAB359 /* FoxPlanner_betaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F20966CF21DA29A600FAB359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20966E221DA29A700FAB359 /* LaunchScreen.storyboard in Resources */,
+				F20966DF21DA29A700FAB359 /* Assets.xcassets in Resources */,
+				F20966DA21DA29A600FAB359 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20966E621DA29A700FAB359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20966F121DA29A700FAB359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F20966CD21DA29A600FAB359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20966D721DA29A600FAB359 /* ViewController.swift in Sources */,
+				F20966D521DA29A600FAB359 /* AppDelegate.swift in Sources */,
+				F20966DD21DA29A600FAB359 /* FoxPlanner_beta.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20966E421DA29A700FAB359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20966ED21DA29A700FAB359 /* FoxPlanner_betaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20966EF21DA29A700FAB359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20966F821DA29A700FAB359 /* FoxPlanner_betaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F20966EA21DA29A700FAB359 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F20966D021DA29A600FAB359 /* FoxPlanner_beta */;
+			targetProxy = F20966E921DA29A700FAB359 /* PBXContainerItemProxy */;
+		};
+		F20966F521DA29A700FAB359 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F20966D021DA29A600FAB359 /* FoxPlanner_beta */;
+			targetProxy = F20966F421DA29A700FAB359 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F20966D821DA29A600FAB359 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F20966D921DA29A600FAB359 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F20966E021DA29A700FAB359 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F20966E121DA29A700FAB359 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F20966FA21DA29A700FAB359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F20966FB21DA29A700FAB359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F20966FD21DA29A700FAB359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoxPlanner_beta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shlee.FoxPlanner-beta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F20966FE21DA29A700FAB359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoxPlanner_beta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shlee.FoxPlanner-beta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F209670021DA29A700FAB359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoxPlanner_betaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shlee.FoxPlanner-betaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoxPlanner_beta.app/FoxPlanner_beta";
+			};
+			name = Debug;
+		};
+		F209670121DA29A700FAB359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoxPlanner_betaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shlee.FoxPlanner-betaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoxPlanner_beta.app/FoxPlanner_beta";
+			};
+			name = Release;
+		};
+		F209670321DA29A700FAB359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoxPlanner_betaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shlee.FoxPlanner-betaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoxPlanner_beta;
+			};
+			name = Debug;
+		};
+		F209670421DA29A700FAB359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoxPlanner_betaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shlee.FoxPlanner-betaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoxPlanner_beta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F20966CC21DA29A600FAB359 /* Build configuration list for PBXProject "FoxPlanner_beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20966FA21DA29A700FAB359 /* Debug */,
+				F20966FB21DA29A700FAB359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20966FC21DA29A700FAB359 /* Build configuration list for PBXNativeTarget "FoxPlanner_beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20966FD21DA29A700FAB359 /* Debug */,
+				F20966FE21DA29A700FAB359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20966FF21DA29A700FAB359 /* Build configuration list for PBXNativeTarget "FoxPlanner_betaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F209670021DA29A700FAB359 /* Debug */,
+				F209670121DA29A700FAB359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F209670221DA29A700FAB359 /* Build configuration list for PBXNativeTarget "FoxPlanner_betaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F209670321DA29A700FAB359 /* Debug */,
+				F209670421DA29A700FAB359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F20966DB21DA29A600FAB359 /* FoxPlanner_beta.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F20966DC21DA29A600FAB359 /* FoxPlanner_beta.xcdatamodel */,
+			);
+			currentVersion = F20966DC21DA29A600FAB359 /* FoxPlanner_beta.xcdatamodel */;
+			path = FoxPlanner_beta.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F20966C921DA29A600FAB359 /* Project object */;
+}
