@@ -7,14 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A28F0AAB6FE405AF40A6DA2 /* Pods_FoxPlanner_beta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E34CBA5F5D26FCD25841FE7 /* Pods_FoxPlanner_beta.framework */; };
+		5B1A363E2201BF48003AE0E3 /* MainMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1A363D2201BF48003AE0E3 /* MainMenuTableViewController.swift */; };
+		5B4CE9EB220C3CFC0033913B /* Extension_UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CE9EA220C3CFC0033913B /* Extension_UIViewController.swift */; };
+		5B4CE9ED220C3D140033913B /* Extension_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CE9EC220C3D140033913B /* Extension_String.swift */; };
+		5B6FF5032224F5610090EBD2 /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6FF5022224F5610090EBD2 /* LoginTest.swift */; };
+		5B6FF5052224F5780090EBD2 /* SignupTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6FF5042224F5780090EBD2 /* SignupTest.swift */; };
+		5B6FF5072224F58A0090EBD2 /* ProfileTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6FF5062224F58A0090EBD2 /* ProfileTest.swift */; };
+		5B6FF5092224F5A30090EBD2 /* AccountTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6FF5082224F5A30090EBD2 /* AccountTest.swift */; };
+		5B6FF50B2224F5B00090EBD2 /* TimetableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6FF50A2224F5B00090EBD2 /* TimetableTest.swift */; };
+		5B6FF50D2224F5BB0090EBD2 /* CourseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6FF50C2224F5BB0090EBD2 /* CourseTest.swift */; };
+		5B6FF50F2224F5DA0090EBD2 /* Extension_StringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6FF50E2224F5DA0090EBD2 /* Extension_StringTest.swift */; };
+		5B9CF44D21FE92C300548561 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CF44C21FE92C300548561 /* Account.swift */; };
+		5BA9257121EF5701002095DE /* LocalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9257021EF5701002095DE /* LocalData.swift */; };
+		5BB145852202C379001F9A74 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB145842202C379001F9A74 /* ProfileViewController.swift */; };
+		5BBC15052203D8D40079D55D /* Timetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC15042203D8D40079D55D /* Timetable.swift */; };
+		5BD792212210E75900735C63 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD792202210E75900735C63 /* Login.swift */; };
+		5BD792232211003000735C63 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD792222211003000735C63 /* Signup.swift */; };
+		5BD79225221100B400735C63 /* AccountError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD79224221100B400735C63 /* AccountError.swift */; };
+		5BD7922722110E9A00735C63 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD7922622110E9A00735C63 /* Profile.swift */; };
+		5BD7922B221131BC00735C63 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD7922A221131BC00735C63 /* Course.swift */; };
+		5BD7922D221131F300735C63 /* DayName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD7922C221131F300735C63 /* DayName.swift */; };
 		F20966D521DA29A600FAB359 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20966D421DA29A600FAB359 /* AppDelegate.swift */; };
-		F20966D721DA29A600FAB359 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20966D621DA29A600FAB359 /* ViewController.swift */; };
 		F20966DA21DA29A600FAB359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20966D821DA29A600FAB359 /* Main.storyboard */; };
 		F20966DD21DA29A600FAB359 /* FoxPlanner_beta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F20966DB21DA29A600FAB359 /* FoxPlanner_beta.xcdatamodeld */; };
 		F20966DF21DA29A700FAB359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20966DE21DA29A700FAB359 /* Assets.xcassets */; };
 		F20966E221DA29A700FAB359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20966E021DA29A700FAB359 /* LaunchScreen.storyboard */; };
 		F20966ED21DA29A700FAB359 /* FoxPlanner_betaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20966EC21DA29A700FAB359 /* FoxPlanner_betaTests.swift */; };
 		F20966F821DA29A700FAB359 /* FoxPlanner_betaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20966F721DA29A700FAB359 /* FoxPlanner_betaUITests.swift */; };
+		F209670A21DA29FD00FAB359 /* starting.png in Resources */ = {isa = PBXBuildFile; fileRef = F209670721DA29FD00FAB359 /* starting.png */; };
+		F209670B21DA29FD00FAB359 /* make_shecdule.png in Resources */ = {isa = PBXBuildFile; fileRef = F209670821DA29FD00FAB359 /* make_shecdule.png */; };
+		F209670C21DA29FD00FAB359 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F209670921DA29FD00FAB359 /* logo.png */; };
+		F209671021DA2EB400FAB359 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F209670F21DA2EB400FAB359 /* LoginViewController.swift */; };
+		F209671221DA2FE800FAB359 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F209671121DA2FE800FAB359 /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +60,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AFA2FF26F26F067271EABA9 /* Pods-FoxPlanner_beta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoxPlanner_beta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoxPlanner_beta/Pods-FoxPlanner_beta.debug.xcconfig"; sourceTree = "<group>"; };
+		3E34CBA5F5D26FCD25841FE7 /* Pods_FoxPlanner_beta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoxPlanner_beta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50FDE9F6215C2DD42E06AAAC /* Pods-FoxPlanner_beta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoxPlanner_beta.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoxPlanner_beta/Pods-FoxPlanner_beta.release.xcconfig"; sourceTree = "<group>"; };
+		5B1A363D2201BF48003AE0E3 /* MainMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuTableViewController.swift; sourceTree = "<group>"; };
+		5B4CE9EA220C3CFC0033913B /* Extension_UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_UIViewController.swift; sourceTree = "<group>"; };
+		5B4CE9EC220C3D140033913B /* Extension_String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_String.swift; sourceTree = "<group>"; };
+		5B6FF5022224F5610090EBD2 /* LoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
+		5B6FF5042224F5780090EBD2 /* SignupTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupTest.swift; sourceTree = "<group>"; };
+		5B6FF5062224F58A0090EBD2 /* ProfileTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTest.swift; sourceTree = "<group>"; };
+		5B6FF5082224F5A30090EBD2 /* AccountTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTest.swift; sourceTree = "<group>"; };
+		5B6FF50A2224F5B00090EBD2 /* TimetableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableTest.swift; sourceTree = "<group>"; };
+		5B6FF50C2224F5BB0090EBD2 /* CourseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTest.swift; sourceTree = "<group>"; };
+		5B6FF50E2224F5DA0090EBD2 /* Extension_StringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_StringTest.swift; sourceTree = "<group>"; };
+		5B9CF44C21FE92C300548561 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		5BA9257021EF5701002095DE /* LocalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalData.swift; sourceTree = "<group>"; };
+		5BB145842202C379001F9A74 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5BBC15042203D8D40079D55D /* Timetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timetable.swift; sourceTree = "<group>"; };
+		5BD792202210E75900735C63 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		5BD792222211003000735C63 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		5BD79224221100B400735C63 /* AccountError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountError.swift; sourceTree = "<group>"; };
+		5BD7922622110E9A00735C63 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		5BD7922A221131BC00735C63 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		5BD7922C221131F300735C63 /* DayName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayName.swift; sourceTree = "<group>"; };
 		F20966D121DA29A600FAB359 /* FoxPlanner_beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoxPlanner_beta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F20966D421DA29A600FAB359 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F20966D621DA29A600FAB359 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F20966D921DA29A600FAB359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F20966DC21DA29A600FAB359 /* FoxPlanner_beta.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoxPlanner_beta.xcdatamodel; sourceTree = "<group>"; };
 		F20966DE21DA29A700FAB359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +96,11 @@
 		F20966F321DA29A700FAB359 /* FoxPlanner_betaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoxPlanner_betaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F20966F721DA29A700FAB359 /* FoxPlanner_betaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoxPlanner_betaUITests.swift; sourceTree = "<group>"; };
 		F20966F921DA29A700FAB359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F209670721DA29FD00FAB359 /* starting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starting.png; sourceTree = "<group>"; };
+		F209670821DA29FD00FAB359 /* make_shecdule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = make_shecdule.png; sourceTree = "<group>"; };
+		F209670921DA29FD00FAB359 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		F209670F21DA2EB400FAB359 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F209671121DA2FE800FAB359 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A28F0AAB6FE405AF40A6DA2 /* Pods_FoxPlanner_beta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +129,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0352E643CD7141C8B8A0B3CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AFA2FF26F26F067271EABA9 /* Pods-FoxPlanner_beta.debug.xcconfig */,
+				50FDE9F6215C2DD42E06AAAC /* Pods-FoxPlanner_beta.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		67C80ABEC3E0F33891AA62BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E34CBA5F5D26FCD25841FE7 /* Pods_FoxPlanner_beta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F20966C821DA29A600FAB359 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +153,8 @@
 				F20966EB21DA29A700FAB359 /* FoxPlanner_betaTests */,
 				F20966F621DA29A700FAB359 /* FoxPlanner_betaUITests */,
 				F20966D221DA29A600FAB359 /* Products */,
+				0352E643CD7141C8B8A0B3CA /* Pods */,
+				67C80ABEC3E0F33891AA62BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +171,28 @@
 		F20966D321DA29A600FAB359 /* FoxPlanner_beta */ = {
 			isa = PBXGroup;
 			children = (
+				F209670621DA29C100FAB359 /* etc */,
+				F209670521DA29B800FAB359 /* res */,
 				F20966D421DA29A600FAB359 /* AppDelegate.swift */,
-				F20966D621DA29A600FAB359 /* ViewController.swift */,
 				F20966D821DA29A600FAB359 /* Main.storyboard */,
-				F20966DE21DA29A700FAB359 /* Assets.xcassets */,
+				5BD792202210E75900735C63 /* Login.swift */,
+				F209670F21DA2EB400FAB359 /* LoginViewController.swift */,
+				5BD792222211003000735C63 /* Signup.swift */,
+				F209671121DA2FE800FAB359 /* SignupViewController.swift */,
+				5B1A363D2201BF48003AE0E3 /* MainMenuTableViewController.swift */,
+				5BD7922622110E9A00735C63 /* Profile.swift */,
+				5BB145842202C379001F9A74 /* ProfileViewController.swift */,
+				5BA9257021EF5701002095DE /* LocalData.swift */,
+				5B9CF44C21FE92C300548561 /* Account.swift */,
+				5BD79224221100B400735C63 /* AccountError.swift */,
+				5BBC15042203D8D40079D55D /* Timetable.swift */,
+				5BD7922A221131BC00735C63 /* Course.swift */,
+				5BD7922C221131F300735C63 /* DayName.swift */,
+				5B4CE9EA220C3CFC0033913B /* Extension_UIViewController.swift */,
+				5B4CE9EC220C3D140033913B /* Extension_String.swift */,
 				F20966E021DA29A700FAB359 /* LaunchScreen.storyboard */,
 				F20966E321DA29A700FAB359 /* Info.plist */,
+				F20966DE21DA29A700FAB359 /* Assets.xcassets */,
 				F20966DB21DA29A600FAB359 /* FoxPlanner_beta.xcdatamodeld */,
 			);
 			path = FoxPlanner_beta;
@@ -115,6 +203,13 @@
 			children = (
 				F20966EC21DA29A700FAB359 /* FoxPlanner_betaTests.swift */,
 				F20966EE21DA29A700FAB359 /* Info.plist */,
+				5B6FF5022224F5610090EBD2 /* LoginTest.swift */,
+				5B6FF5042224F5780090EBD2 /* SignupTest.swift */,
+				5B6FF5062224F58A0090EBD2 /* ProfileTest.swift */,
+				5B6FF5082224F5A30090EBD2 /* AccountTest.swift */,
+				5B6FF50A2224F5B00090EBD2 /* TimetableTest.swift */,
+				5B6FF50C2224F5BB0090EBD2 /* CourseTest.swift */,
+				5B6FF50E2224F5DA0090EBD2 /* Extension_StringTest.swift */,
 			);
 			path = FoxPlanner_betaTests;
 			sourceTree = "<group>";
@@ -128,6 +223,23 @@
 			path = FoxPlanner_betaUITests;
 			sourceTree = "<group>";
 		};
+		F209670521DA29B800FAB359 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				F209670921DA29FD00FAB359 /* logo.png */,
+				F209670821DA29FD00FAB359 /* make_shecdule.png */,
+				F209670721DA29FD00FAB359 /* starting.png */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		F209670621DA29C100FAB359 /* etc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = etc;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F20966FC21DA29A700FAB359 /* Build configuration list for PBXNativeTarget "FoxPlanner_beta" */;
 			buildPhases = (
+				4B3041F666B277E6D228812A /* [CP] Check Pods Manifest.lock */,
 				F20966CD21DA29A600FAB359 /* Sources */,
 				F20966CE21DA29A600FAB359 /* Frameworks */,
 				F20966CF21DA29A600FAB359 /* Resources */,
+				4D76D6CC2D4500A0CE35D81F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,7 +348,10 @@
 			files = (
 				F20966E221DA29A700FAB359 /* LaunchScreen.storyboard in Resources */,
 				F20966DF21DA29A700FAB359 /* Assets.xcassets in Resources */,
+				F209670C21DA29FD00FAB359 /* logo.png in Resources */,
 				F20966DA21DA29A600FAB359 /* Main.storyboard in Resources */,
+				F209670B21DA29FD00FAB359 /* make_shecdule.png in Resources */,
+				F209670A21DA29FD00FAB359 /* starting.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +371,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B3041F666B277E6D228812A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoxPlanner_beta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D76D6CC2D4500A0CE35D81F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoxPlanner_beta/Pods-FoxPlanner_beta-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoxPlanner_beta/Pods-FoxPlanner_beta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F20966CD21DA29A600FAB359 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F20966D721DA29A600FAB359 /* ViewController.swift in Sources */,
+				F209671021DA2EB400FAB359 /* LoginViewController.swift in Sources */,
+				5BD7922722110E9A00735C63 /* Profile.swift in Sources */,
+				5BBC15052203D8D40079D55D /* Timetable.swift in Sources */,
 				F20966D521DA29A600FAB359 /* AppDelegate.swift in Sources */,
+				5BD792212210E75900735C63 /* Login.swift in Sources */,
+				5BD7922B221131BC00735C63 /* Course.swift in Sources */,
 				F20966DD21DA29A600FAB359 /* FoxPlanner_beta.xcdatamodeld in Sources */,
+				5BA9257121EF5701002095DE /* LocalData.swift in Sources */,
+				5B9CF44D21FE92C300548561 /* Account.swift in Sources */,
+				5BD792232211003000735C63 /* Signup.swift in Sources */,
+				5BB145852202C379001F9A74 /* ProfileViewController.swift in Sources */,
+				5BD7922D221131F300735C63 /* DayName.swift in Sources */,
+				5B1A363E2201BF48003AE0E3 /* MainMenuTableViewController.swift in Sources */,
+				5B4CE9ED220C3D140033913B /* Extension_String.swift in Sources */,
+				5B4CE9EB220C3CFC0033913B /* Extension_UIViewController.swift in Sources */,
+				5BD79225221100B400735C63 /* AccountError.swift in Sources */,
+				F209671221DA2FE800FAB359 /* SignupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +447,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B6FF5072224F58A0090EBD2 /* ProfileTest.swift in Sources */,
+				5B6FF5092224F5A30090EBD2 /* AccountTest.swift in Sources */,
+				5B6FF5032224F5610090EBD2 /* LoginTest.swift in Sources */,
+				5B6FF50F2224F5DA0090EBD2 /* Extension_StringTest.swift in Sources */,
+				5B6FF5052224F5780090EBD2 /* SignupTest.swift in Sources */,
+				5B6FF50D2224F5BB0090EBD2 /* CourseTest.swift in Sources */,
 				F20966ED21DA29A700FAB359 /* FoxPlanner_betaTests.swift in Sources */,
+				5B6FF50B2224F5B00090EBD2 /* TimetableTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,9 +619,11 @@
 		};
 		F20966FD21DA29A700FAB359 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AFA2FF26F26F067271EABA9 /* Pods-FoxPlanner_beta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HR4FC5ZJ77;
 				INFOPLIST_FILE = FoxPlanner_beta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,9 +638,11 @@
 		};
 		F20966FE21DA29A700FAB359 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50FDE9F6215C2DD42E06AAAC /* Pods-FoxPlanner_beta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HR4FC5ZJ77;
 				INFOPLIST_FILE = FoxPlanner_beta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
